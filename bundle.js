@@ -2277,7 +2277,7 @@ let resultTimeout = null
 let restaurants = null
 let wheelName = wheelNameEl.textContent
 
-const defaultRestaurants = ['同品項第二杯7折', '再接再厲',  '同品項第二杯5折', `再接再厲`, '同品項第二杯85折', '拿鐵第2杯半價', '再接再厲', '再接再厲', '精品美式7折', '全品項95折', `全品項85折`]
+const defaultRestaurants = ['全品項飲品半價', '再接再厲',  '全品項飲品75折', `再接再厲`, '拿鐵75折', '精品美式75折', '再接再厲', '卡布奇諾8折', '再接再厲', '焦糖瑪奇朵8折', `摩卡8折`]
 
 const localStorageKeySegments = 'lunchwheel:segments'
 const localStorageKeyWheelName = 'lunchwheel:name'
@@ -2315,11 +2315,11 @@ window.lunchWheel = {
     wheelNameEl.textContent = wheelName
 
     return wheelName
-  }
+}
 }
 
 try {
-  restaurants = JSON.parse(localStorage.getItem(localStorageKeySegments))
+    restaurants = JSON.parse(localStorage.getItem(localStorageKeySegments))
 } catch (error) {}
 
 if (!restaurants) {
@@ -2327,22 +2327,22 @@ if (!restaurants) {
 }
 
 try {
-  const name = localStroage.getItem(localStorageKeyWheelName)
-  if (name) {
+    const name = localStroage.getItem(localStorageKeyWheelName)
+    if (name) {
     wheelName = name
     lunchWheel.name(wheelName)
-  }
+    }
 } catch (error) {}
 
 function createWheel () {
-  const segments = restaurants.map((x, i) => {
+    const segments = restaurants.map((x, i) => {
     return {
-      'fillStyle': colors[i],
-      'text': x,
-      'textFontSize': 15,
-      'textFillStyle': '#fff'
+        'fillStyle': colors[i],
+        'text': x,
+        'textFontSize': 15,
+        'textFillStyle': '#fff'
     }
-  })
+    })
 
   return new WinWheel({
     'outerRadius': 218,

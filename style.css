@@ -34,7 +34,7 @@ a,
 a:hover,
 a:active,
 a:focus {
-  color: #0077B3;
+  color: #d9e3e7;
   text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ body.Spinning .Container {
 .HeaderSpinText {
   font-family: 'colors_of_autumnregular', sans-serif;
   font-size: 26px;
-  color: #ffc765;
+  color: #ffffff;
   display: block;
   text-shadow: none;
   margin-bottom: 10px;
@@ -115,7 +115,7 @@ body.Spinning .Container {
   justify-content: center;
   transition: all 0.5 ease-out;
   opacity: 0;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .WheelResult.Show {
