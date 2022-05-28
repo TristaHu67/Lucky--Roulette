@@ -2277,13 +2277,13 @@ let resultTimeout = null
 let restaurants = null
 let wheelName = wheelNameEl.textContent
 
-const defaultRestaurants = ['同品項第二杯7折', '再接再厲',  '同品項第二杯5折', `再接再厲`, '再接再厲', '拿鐵第2杯半價', '再接再厲', '再接再厲', '精品美式7折', '全品項95折', `全品項85折`]
+const defaultRestaurants = ['同品項第二杯7折', '再接再厲',  '同品項第二杯5折', `再接再厲`, '同品項第二杯85折', '拿鐵第2杯半價', '再接再厲', '再接再厲', '精品美式7折', '全品項95折', `全品項85折`]
 
 const localStorageKeySegments = 'lunchwheel:segments'
 const localStorageKeyWheelName = 'lunchwheel:name'
 
 const colors = [
-    '#203010', '#6B1930', '#4A1222', '#01042F', '#55455C','#203010', '#6B1930', '#4A1222', '#01042F', '#55455C','#203010', '#6B1930', '#4A1222', '#01042F', '#55455C','#203010', '#A87225', '#6B7040', '#6D573E', '#525C43'
+    '#5D0A14', '#6B1930', '#4A1222', '#5D0A14', '#CFA09C','#D01E27', '#6B1930', '#4A1222', '#5D0A14', '#CFA09C','#D01E27', '#6B1930', '#4A1222', '#5D0A14', '#CFA09C','#D01E27', '#A87225', '#6B7040', '#6D573E', '#525C43'
 ]
 
 window.lunchWheel = {

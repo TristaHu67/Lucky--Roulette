@@ -198,31 +198,31 @@ body.Spinning .SpinButton {
 
 .Punch {
   position: relative;
-  background: #4162a8;
-  border-top: 1px solid #38538c;
-  border-right: 1px solid #1f2d4d;
-  border-bottom: 1px solid #151e33;
-  border-left: 1px solid #1f2d4d;
+  background: #a84141;
+  border-top: 1px solid #8c3838;
+  border-right: 1px solid #4d1f1f;
+  border-bottom: 1px solid #331515;
+  border-left: 1px solid #4d1f1f;
   border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 6px 0 #1f3053, 0 8px 4px 1px #111111;
-  box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 6px 0 #1f3053, 0 8px 4px 1px #111111;
+  -webkit-box-shadow: inset 0 1px 10px 1px #ee5c5c, 0 1px 0 #4d1d1d, 0 6px 0 #531f1f, 0 8px 4px 1px #111111;
+  box-shadow: inset 0 1px 10px 1px #ee5c5c, 0 1px 0 #4d1d1d, 0 6px 0 #531f1f, 0 8px 4px 1px #111111;
   color: #fff;
   font: bold 20px/1 'helvetica neue', helvetica, arial, sans-serif;
   padding: 10px 0 12px 0;
   text-align: center;
-  text-shadow: 0 -1px 1px #1e2d4d;
+  text-shadow: 0 -1px 1px #4d1e1e;
   width: 150px;
   /* -webkit-background-clip: padding-box; */
 }
 .Punch:hover,
 .Punch.hover {
-  -webkit-box-shadow: inset 0 0 20px 1px #87adff, 0 1px 0 #1d2c4d, 0 6px 0 #1f3053, 0 8px 4px 1px #111111;
-  box-shadow: inset 0 0 20px 1px #87adff, 0 1px 0 #1d2c4d, 0 6px 0 #1f3053, 0 8px 4px 1px #111111;
+  -webkit-box-shadow: inset 0 0 20px 1px #ff8787, 0 1px 0 #4d1d1d, 0 6px 0 #531f1f, 0 8px 4px 1px #111111;
+  box-shadow: inset 0 0 20px 1px #ff8787, 0 1px 0 #4d1d1d, 0 6px 0 #531f1f, 0 8px 4px 1px #111111;
 cursor: pointer; }
 .Punch:active,
 .Punch.active {
-  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
-  box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+  -webkit-box-shadow: inset 0 1px 10px 1px #ee5c5c, 0 1px 0 #4d1d25, 0 2px 0 #531f1f, 0 4px 3px 0 #111111;
+  box-shadow: inset 0 1px 10px 1px #ee5c5c, 0 1px 0 #4d1d1d, 0 2px 0 #531f1f, 0 4px 3px 0 #111111;
   top: 5px;
 }
 
